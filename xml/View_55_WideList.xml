@@ -227,6 +227,16 @@
 				<label>$INFO[ListItem.Label2]</label>
 				<shadowcolor>text_shadow</shadowcolor>
 			</control>
+			<control type="image">
+				<left>900</left>
+				<height>32</height>
+				<right>0</right>
+				<top>24</top>
+				<align>right</align>
+				<aligny>center</aligny>
+				<aspectratio>keep</aspectratio>
+				<texture>$INFO[ListItem.UserRating,flags/starrating/,.png]</texture>
+			</control>
 		</focusedlayout>
 		<itemlayout height="80" condition="Container.Content(songs)">
 			<control type="label">
@@ -246,6 +256,16 @@
 				<label>$INFO[ListItem.Label2]</label>
 				<textcolor>grey</textcolor>
 				<shadowcolor>text_shadow</shadowcolor>
+			</control>
+			<control type="image">
+				<left>900</left>
+				<height>32</height>
+				<right>0</right>
+				<top>24</top>
+				<align>right</align>
+				<aligny>center</aligny>
+				<aspectratio>keep</aspectratio>
+				<texture>$INFO[ListItem.UserRating,flags/starrating/,.png]</texture>
 			</control>
 		</itemlayout>
 	</include>
